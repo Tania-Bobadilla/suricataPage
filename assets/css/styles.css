@@ -1,0 +1,27 @@
+/* nav{
+    background-color: #E83E8C ;
+} */
+
+
+/* va a ganar y ser priorizada mi clase */
+.colorRosadoNav , .colorRosadoFooter{
+    background-color: #E83E8C !important;
+}
+
+.colorCelesteFooter{
+    background-color: #17A2B8;
+}
+
+nav div a img{
+    /* width: 40%; */
+    width: 6rem;
+}
+
+footer div h3 , footer div i{
+    color: #fff;
+}
+
+
+
+
+
