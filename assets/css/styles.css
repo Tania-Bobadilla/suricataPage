@@ -10,16 +10,35 @@
 
 .colorCelesteFooter{
     background-color: #17A2B8;
+    padding: 2.5rem 0 ;
 }
 
+
+/* tamaño del logo del nav */
 nav div a img{
     /* width: 40%; */
     width: 6rem;
 }
 
+/* color de las letras e iconos del footer */
 footer div h3 , footer div i{
     color: #fff;
+    padding: 0 2rem;
 }
+
+/* tamaño del logo del footer */
+footer div img{
+    width: 2.5rem;
+    padding: 1rem 0 2rem 0;
+}
+
+
+/* tamaño de los iconos del footer */
+footer div div i{
+    font-size: 2.5rem;
+    /* padding: 1rem 0; */
+}
+
 
 
 
