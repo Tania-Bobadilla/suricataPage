@@ -8,6 +8,11 @@
     background-color: #E83E8C !important;
 }
 
+/* tambien sirve, sin important! no, mentira no sirvio */
+/* .colorRosadoNav , .colorRosadoFooter{
+    background-color: #E83E8C;
+} */
+
 .colorCelesteFooter{
     background-color: #17A2B8;
     padding: 2.5rem 0 ;
@@ -37,6 +42,20 @@ footer div img{
 footer div div i{
     font-size: 2.5rem;
     /* padding: 1rem 0; */
+}
+
+article div h1{
+    color: #707070;
+    font-weight: 500;
+}
+
+/* media queries para resposividad de la tarjetas */
+@media(max-width: 576px){
+    .centradoPequenio{
+        width: 18rem;
+    }
+    /* es lo mismo que la etiqueta tenia en el style de la clase, pero solo considerado desde 576px, no general
+       <div class="card mt-4 mx-auto" style="width: 18rem;">*/
 }
 
 
